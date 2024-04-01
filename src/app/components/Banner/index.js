@@ -1,6 +1,6 @@
 import React from 'react'
 import BackGround from '../smallCompponents/BackGround/BackGround'
-import Heading from '../smallCompponents/Heading'
+import Heading from '../smallCompponents/Heading/Heading'
 import Button from '../smallCompponents/Buttons/Button'
 
 function index() {

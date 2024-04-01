@@ -1,10 +1,12 @@
-import SubHeading from "../smallCompponents/SubHeading/SubHeading"
+import ImageSlider from "../smallCompponents/ImageSlider/ImageSlider"
+import SubHeading from "../smallCompponents/Heading/SubHeading"
 
 function Slider() {
   return (
-    <div className="px-8 py-14">
+    <section className="px-8 py-14">
         <SubHeading title='Fyntune is the trusted partner of industry leaders' highlightedText='industry leaders'/>
-    </div>
+        <ImageSlider />
+    </section>
   )
 }
 
