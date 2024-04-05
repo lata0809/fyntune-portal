@@ -1,14 +1,10 @@
-import Image from "next/image";
-import Banner from './components/Banner'
-import Slider from "./components/Slider";
-import Cards from "./components/Cards";
+
+import HomePage from "./components/Pages/Home";
 
 export default function Home() {
   return (
-    <main>
-      <Banner />
-      <Slider />
-      <Cards />
+    <main className="bg-[#F9F9FF]">
+      <HomePage />
     </main>
   );
 }

@@ -1,5 +1,4 @@
 'use client'
-import CallButton from "@/app/components/smallCompponents/Buttons/CallButton";
 import Image from "next/image"
 import Link from "next/link";
 import { useEffect, useState } from "react"
@@ -33,7 +32,7 @@ function Logo() {
     <>
       {/* <Link href='/' style={{display: showButton ? 'none' : 'block'}}> */}
       <Link href='/'>
-        <Image src='/FyntuneLogo.svg'
+        <Image src='images/FyntuneLogo.svg'
             alt="FyntuneLogo"
             width={width < 1024 ? '150' : '170'}
             height={width < 1024 ? '36' : '25'}

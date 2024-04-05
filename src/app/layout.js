@@ -1,6 +1,7 @@
 import { Inter, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/navigation";
+import Footer from "./components/MainComponents/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const OpenSans = Open_Sans({ subsets: ["latin"] });
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={OpenSans.className}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
